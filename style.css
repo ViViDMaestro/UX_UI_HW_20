@@ -1,0 +1,78 @@
+.logo {
+    width: 50px;
+    height: 40px;
+
+	
+}
+
+.navbar {
+  background-color: rgb(110, 1, 110);;
+}
+
+.jumbotronjumbotron-fluid {
+  background-image: url(images/jr-korpa-9XngoIpxcEo-unsplash.jpg);
+  background-size: cover;
+  
+}
+
+.lead {
+  color: white;
+
+}
+
+#navbarNav  {
+    background-color: rgb(110, 1, 110);
+    color: white;
+    
+}
+
+.nav-item {
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: auto;
+    
+}
+
+.nav-link {
+    margin-right:0%;
+}
+
+body {
+    background-image: url(images/neon-light-hero-4k-os-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: center;
+  }
+  h1 {
+    color: #fff;
+    padding: 10px 0;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: none;
+    
+    .card hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    }
+    a {
+      color: initial;
+      &:hover {
+        text-decoration: initial;
+      }
+    }
+    .text-muted i {
+      margin: 0 10px;
+    }
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  .card-text {
+    font-style: oblique;
+    color:rgba(0, 0, 0, 0.2)
+  }
+  
